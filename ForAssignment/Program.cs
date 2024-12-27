@@ -32,21 +32,17 @@ namespace ForApp
             }
             Console.WriteLine($"50 ve 150 arasındaki tum sayilarin toplami = {sum_numbers}");
 
-            int sum_even_numbers = 0;
+            int sum_even_numbers = 0; 
+            int sum_odd_numbers = 0;
             for (int i = 0; i < 120; i++)
             {
                 if (i % 2 == 0)
                     sum_even_numbers += i;
-            }
-            Console.WriteLine($"1'den 120'ye kadar cift sayilarin toplami = {sum_even_numbers}");
-
-            int sum_odd_numbers = 0;
-
-            for (int i = 0; i < 120; i++)
-            {
                 if (i % 2 != 1)
                     sum_odd_numbers += i;
             }
+            
+            Console.WriteLine($"1'den 120'ye kadar cift sayilarin toplami = {sum_even_numbers}");
             Console.WriteLine($"1'den 120'ye kadar tek sayilarin toplami = {sum_odd_numbers}");
 
         }
