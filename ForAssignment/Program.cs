@@ -44,7 +44,7 @@ namespace ForApp
 
             for (int i = 0; i < 120; i++)
             {
-                if (i % 2 != 0)
+                if (i % 2 != 1)
                     sum_odd_numbers += i;
             }
             Console.WriteLine($"1'den 120'ye kadar tek sayilarin toplami = {sum_odd_numbers}");
